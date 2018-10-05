@@ -1,0 +1,7 @@
+<ul>
+{{#each menuItems as |menu|}}
+
+    <li>{{#link-to menu}}{{capitalize  menu}}{{/link-to}}</li>
+{{/each}}
+</ul>
+{{yield}}
